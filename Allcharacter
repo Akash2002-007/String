@@ -1,0 +1,13 @@
+package com.nit;
+
+public class Allcharacter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+              String str="Java";
+              
+              System.out.println(str.length());
+              
+	}
+
+}
