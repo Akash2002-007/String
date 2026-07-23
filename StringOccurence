@@ -1,0 +1,21 @@
+package com.nit;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class StringOccurence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      String s="IlikeYouLoveEveryone";
+      Map<Character,Integer> list=new HashMap<>();
+      
+      for(char ch:s.toCharArray()) {
+    	  list.put(ch,list.getOrDefault(ch,0)+1);
+    		  System.out.println(list);
+    	 
+    	  
+      }
+	}
+
+}
