@@ -1,0 +1,21 @@
+package com.nit.array;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class StringOccurence8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        String str=" Er Akash Kumar Maddheshiya Akash ";
+        String []ch=str.split(" ");
+        
+         Map<String,Integer> map=new HashMap<>();
+         for(String num:ch) {
+        	  map.put(num, map.getOrDefault(num,0)+1);
+         }
+         
+         System.out.println(map);
+	}
+
+}
