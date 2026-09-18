@@ -1,0 +1,18 @@
+package com.dailypdf;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Occurence89 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         String str="Java";
+       Map<Character,Integer>map=new HashMap<>();
+       for(char num:str.toCharArray()) {
+    	    map.put(num, map.getOrDefault(num, 0)+1);
+       }
+       System.out.println(map);
+	}
+
+}
