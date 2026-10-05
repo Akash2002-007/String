@@ -1,0 +1,17 @@
+package com.dailypdf;
+
+public class ArrayFindthe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     int a[]= {10,20,30,40,50};
+     
+     int i=40;
+     for(int num:a) {
+    	 if(num==i) {
+    		 System.out.println(" "+num);
+    	 }
+     }
+	}
+
+}
